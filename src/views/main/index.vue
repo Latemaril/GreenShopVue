@@ -1,10 +1,12 @@
 <script setup>
-
+export default {
+  name: 'Index',
+}
 </script>
 
 <template>
   <div>
-    Some Component
+
   </div>
 </template>
 

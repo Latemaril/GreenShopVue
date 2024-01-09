@@ -4,10 +4,10 @@
     <nav class="navigation">
       <div class="navigation__menu">
         <div class="navigation__div_img">
-          <img :src="src/assets/img/Navigation.svg" alt="" class="navigation__img">
+          <img :src="'src/assets/img/Navigation.svg'" alt="" class="navigation__img">
         </div>
         <div class="navigation__div_button">
-          <button class="navigation__button"><img src="src/assets/img/Filter.svg" class="search__img" alt=""></button>
+          <button class="navigation__button"><img :src="'src/assets/img/Filter.svg'" class="search__img" alt=""></button>
         </div>
         <div class="navigation__imgContainer">
           <div class="navigation__list">
@@ -82,7 +82,7 @@
       <div class="container">
         <div class="header__top-row">
           <a href="index.html">
-            <img src="src/assets/img/header/logo.png" alt="Greenshop">
+            <img :src="'src/assets/img/header/logo.png'" alt="Greenshop">
           </a>
           <div class="header__nav">
             <nav class="nav">
@@ -96,7 +96,7 @@
           <div class="header__right">
             <div class="header__cart">
               <a href="product_cart.html">
-                <img class="header__cart" src="src/assets/img/header/cart.svg" alt="Cart">
+                <img class="header__cart" :src="'src/assets/img/header/cart.svg'" alt="Cart">
               </a>
             </div>
             <div class="header__login">
@@ -120,8 +120,8 @@
     <div class="slider">
       <div class="slider-slides">
         <div class="slider-slide">
-          <img class="slider__mobile" src="src/assets/img/Banner-test2.png" alt="">
-          <img class="slider__desc" src="src/assets/img/main_banner.png" alt="">
+          <img class="slider__mobile" :src="'src/assets/img/Banner-test2.png'" alt="">
+          <img class="slider__desc" :src="'src/assets/img/main_banner.png'" alt="">
           <div class="slider__img">
 
           </div>
@@ -194,7 +194,7 @@
             </div>
           </div>
           <div class="categories__banner">
-            <img src="src/assets/img/sale.png" alt="">
+            <img :src="'src/assets/img/sale.png'" alt="">
           </div>
         </div>
         <!-- Catalog -->
@@ -205,13 +205,13 @@
               <p class="catalog__plants_active">All Plants</p>
               <p class="catalog__plants_arrivals">New Arrivals</p>
               <p class="catalog__plants_sale">Sale</p>
-              <p class="catalog__sortBy">Sort by: <span id="catalog__parameter">Default sorting</span><img src="src/assets/img/arrowDown.png" alt=""></p>
+              <p class="catalog__sortBy">Sort by: <span id="catalog__parameter">Default sorting</span><img :src="'src/assets/img/arrowDown.png'" alt=""></p>
             </div>
             <div class="catalog__block">
               <a class="catalog__item" href="product_view.html">
                 <!-- <div class="catalog__img_container"> -->
 
-                <img src="src/assets/img/item1.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item1.png'" alt="" class="catalog__img">
                 <!-- <div class="catalog__img_container-color"></div> -->
                 <!-- </div> -->
                 <h3 class="catalog__title">
@@ -224,7 +224,7 @@
                 </div>
               </a>
               <a class="catalog__item catalog__item-bottom" href="product_view.html">
-                <img src="src/assets/img/item2.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item2.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   Angel Wing Begonia
                 </h3>
@@ -235,7 +235,7 @@
                 </div>
               </a>
               <a class="catalog__item" href="product_view.html">
-                <img src="src/assets/img/item3.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item3.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   African Violet
                 </h3>
@@ -246,7 +246,7 @@
                 </div>
               </a>
               <a class="catalog__item catalog__item-bottom" href="product_view.html">
-                <img src="src/assets/img/item44.png" alt="" class="catalog__img catalog_img4">
+                <img :src="'src/assets/img/item44.png'" alt="" class="catalog__img catalog_img4">
                 <h3 class="catalog__title">
                   Beach Spider Lily
                 </h3>
@@ -257,7 +257,7 @@
                 </div>
               </a>
               <a class="catalog__item" href="product_view.html">
-                <img src="src/assets/img/item5.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item5.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   Blushing Bromeliad
                 </h3>
@@ -268,7 +268,7 @@
                 </div>
               </a>
               <a class="catalog__item catalog__item-bottom" href="product_view.html">
-                <img src="src/assets/img/item6.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item6.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   Aluminum Plant
                 </h3>
@@ -279,7 +279,7 @@
                 </div>
               </a>
               <a class="catalog__item catalag__item_cut" href="product_view.html">
-                <img src="src/assets/img/item7.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item7.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   Bird's Nest Fern
                 </h3>
@@ -290,7 +290,7 @@
                 </div>
               </a>
               <a class="catalog__item catalag__item_cut" href="product_view.html">
-                <img src="src/assets/img/item8.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item8.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   Broadleaf Lady Palm
                 </h3>
@@ -301,7 +301,7 @@
                 </div>
               </a>
               <a class="catalog__item catalag__item_cut" href="product_view.html">
-                <img src="src/assets/img/item9.png" alt="" class="catalog__img">
+                <img :src="'src/assets/img/item9.png'" alt="" class="catalog__img">
                 <h3 class="catalog__title">
                   Chinese Evergreen
                 </h3>
@@ -333,7 +333,7 @@
           <button class="pages__button">4</button>
         </div>
         <div class="pages__item">
-          <button class="pages__button"><img src="src/assets/img/arrowRight.svg" alt=""></button>
+          <button class="pages__button"><img :src="'src/assets/img/arrowRight.svg'" alt=""></button>
         </div>
       </div>
     </div>
@@ -355,51 +355,51 @@
             <div class="blog__column blog__columnLeft">
               <div class="item-blog">
                 <div class="item-blog__icon">
-                  <img src="src/assets/img/01.png" alt="">
+                  <img :src="'src/assets/img/01.png'" alt="">
                 </div>
                 <div class="item-blog__date">September 12  I Read in 6 minutes</div>
                 <div class="item-blog__title">Cactus & Succulent
                   Care Tips</div>
                 <div class="item-blog__subtitle">Cacti are succulents are easy care plants for any home or patio. </div>
-                <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="src/assets/img/arrow.svg" alt=""></a></div>
+                <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" :src="'src/assets/img/arrow.svg'" alt=""></a></div>
               </div>
             </div>
 
             <div class="blog__column"><div class="item-blog">
               <div class="item-blog__icon">
-                <img src="src/assets/img/02.png" alt="">
+                <img :src="'src/assets/img/02.png'" alt="">
               </div>
               <div class="item-blog__date">September 13  I Read in 2 minutes</div>
               <div class="item-blog__title">Top 10 Succulents for
                 Your Home</div>
               <div class="item-blog__subtitle">Best in hanging baskets. Prefers medium to high light. </div>
-              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="src/assets/img/arrow.svg" alt=""></a></div>
+              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" :src="'src/assets/img/arrow.svg'" alt=""></a></div>
             </div>
             </div>
 
             <div class="blog__column blog__columnRight">
               <div class="item-blog">
                 <div class="item-blog__icon">
-                  <img src="src/assets/img/03.png" alt="">
+                  <img :src="'src/assets/img/03.png'" alt="">
                 </div>
                 <div class="item-blog__date">September 15  I Read in 3 minutes</div>
                 <div class="item-blog__title">Cacti & Succulent
                   Care Tips</div>
                 <div class="item-blog__subtitle">Cacti and succulents thrive in containers and because most are.. </div>
-                <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="src/assets/img/arrow.svg" alt=""></a></div>
+                <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" :src="'src/assets/img/arrow.svg'" alt=""></a></div>
               </div>
             </div>
 
             <div class="blog__column blog__column-hide">
               <div class="item-blog">
                 <div class="item-blog__icon">
-                  <img src="src/assets/img/04.png" alt="">
+                  <img :src="'src/assets/img/04.png'" alt="">
                 </div>
                 <div class="item-blog__date">September 15  I Read in 2 minutes</div>
                 <div class="item-blog__title">Best Houseplants
                   Room by Room</div>
                 <div class="item-blog__subtitle">The benefits of houseplants are endless. In addition to.. </div>
-                <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="src/assets/img/arrow.svg" alt=""></a></div>
+                <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" :src="'src/assets/img/arrow.svg'" alt=""></a></div>
               </div>
             </div>
           </div>
@@ -413,17 +413,17 @@
         <div class="footer__top">
           <div class="footer__top-cut">
             <div class="footer__logo">
-              <img src="src/assets/img/logo.svg" alt="">
+              <img :src="'src/assets/img/logo.svg'" alt="">
             </div>
             <div class="footer__address">
-              <img src="src/assets/img/location.svg" alt=""> <div class="footer__adress-text">70 West Buckingham Ave.
+              <img :src="'src/assets/img/location.svg'" alt=""> <div class="footer__adress-text">70 West Buckingham Ave.
               Farmingdale, NY 11735</div>
             </div>
             <div class="footer__mail">
-              <img src="src/assets/img/message.svg" alt=""> contact@greenshop.com
+              <img :src="'src/assets/img/message.svg'" alt=""> contact@greenshop.com
             </div>
             <div class="footer__number">
-              <img src="src/assets/img/phone.svg" alt=""> +88 01911 717 490
+              <img :src="'src/assets/img/phone.svg'" alt=""> +88 01911 717 490
             </div>
           </div>
         </div>
@@ -469,16 +469,16 @@
               <div class="footer__media">
                 <div class="footer__title">Social Media</div>
                 <div class="footer__social">
-                  <a href="#"><button class="footer__button"><img src="src/assets/img/Facebook.svg" alt=""></button></a>
-                  <a href="#"><button class="footer__button"><img src="src/assets/img/Instagram.svg" alt=""></button></a>
-                  <a href="#"><button class="footer__button"><img src="src/assets/img/Twitter.svg" alt=""></button></a>
-                  <a href="#"><button class="footer__button"><img src="src/assets/img/Linkedin.svg" alt=""></button></a>
-                  <a href="#"><button class="footer__button"><img src="src/assets/img/Union.svg" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img :src="'src/assets/img/Facebook.svg'" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img :src="'src/assets/img/Instagram.svg'" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img :src="'src/assets/img/Twitter.svg'" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img :src="'src/assets/img/Linkedin.svg'" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img :src="'src/assets/img/Union.svg'" alt=""></button></a>
                 </div>
               </div>
               <div class="footer__payment">
                 <div class="footer__title" id="footer__accept_text">We accept</div>
-                <a href="#"><img src="src/assets/img/visa.png" alt=""></a>
+                <a href="#"><img :src="'src/assets/img/visa.png'" alt=""></a>
               </div>
             </div>
           </div>
@@ -492,12 +492,6 @@
 </template>
 
 <script>
-import { filename } from 'pathe/utils';
-
-const glob = import.meta.glob('~/assets/*.svg', { eager: true });
-const images = Object.fromEntries(
-    Object.entries(glob).map(([key, value]) => [filename(key), value.default])
-);
 export default {
   name: 'App',
 
